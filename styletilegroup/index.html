@@ -1,0 +1,152 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Chau+Philomene+One|Indie+Flower|Poller+One|Vast+Shadow" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </head>
+  <body>
+
+    <section class="row">
+       <span id="greeting">hello!</span>
+
+    </section>
+
+    <section class="row 1">
+      <div class="title">
+        <h1 class="columns small-12 large-12"> Smoking Pig </h1>
+        <img src="images/firelog.jpg" alt="" class="columns small-12 large-12" />
+      </div>                                            <!--on small screen pic occupies half that of large screen-->
+    </section>
+
+
+
+<section class="row 2">
+  <h2 class="columns small-12 large-4">   <img src="images/dance.png" alt="" class="columns small-12 large-12"/> </h2>
+  <h2 class="columns small-12 large-4">  <img src="images/apple.png" alt="" class="columns small-12 large-12"/> </h2>
+  <h2 class="columns small-12 large-4">   <img src="images/cater.png" alt="" class="columns small-12 large-12"/> </h2>
+
+
+</section>
+
+<section class="row 3">
+  <h3 class="columns small-12 large-6">  </h3>
+  <h3 class="columns small-12 large-6"> </h3>
+</section>
+
+
+<section class="row1menu">
+  <div class="menutitle">
+    <p> Eats </p>
+  </div>
+  <div class="columns small-12 large-12"> <img src="images/apple.png"/> LOGO GOES HERE </div>
+
+</section>
+
+<br>
+<br>
+
+
+<section class="row2menu">
+    <h2 class="columns small-12 large-3"> </h2>
+      <div class="apps"> Appetizers</div>
+  </section>
+
+  <br>
+  <br>
+
+
+<section>
+    <h2 class="columns small-12 large-3"> </h2>
+<ul class="applist">
+  <li> <strong>Wolf Turds (2 or 4)</strong></li>
+    <p class="wolfturddesc"> Jalapeno Stuffed with Home-made Sweet Sausage, Our Blend of Cheeses, Wrapped in Bacon and Smoked. They will make your taste buds dance!</p>
+  <br>
+
+  <li> <strong> Chicken Lollipops	- (2 or 4) </strong> </li>
+    <p class="cknlollies"> Chicken Drummettes MArinated, Rubbed, Wrapped in Bacon and Smoked.> </p>
+  <br>
+  <li> <strong> Wingin' It </strong> </li>
+      <p class="cknwings"> Chicken Wings Caramelized in out Delicious BBQ Sauce. Choice of Plain, Honey or Hot.</p>
+    <br>
+  <li>Milk</li>
+  <li>Milk</li>
+  <li>Milk</li>
+
+
+</ul>
+    <h2 class="columns small-12 large-3">
+    <h2 class="columns small-12 large-3">
+</section>
+
+
+
+
+</section>
+
+<script type="text/javascript">
+  var myDate = new Date();
+  var myHour= myDate.getHours();
+  /* the line above creates a date object in the browser and assigns it to the variable called myDate-new Date is object*/
+
+  if ( myHour < 12 ){
+    document.getElementById('greeting').innerHTML = "Good Morning!";
+    console.log("line 34 saying hello");
+  }
+/* myDate is variable while gethours is the method-method commuicates with the preseding variable and knows to do this becuase of the PERIOD*/
+
+if ( myHour <= 17 )
+{
+    document.getElementById('greeting').innerHTML = "Good Afternoon!";
+}
+
+if (  myHour >= 24 )
+{
+   document.getElementById('greeting').innerHTML = "Good Evening!";
+}
+
+
+
+
+</script>
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
