@@ -1,0 +1,201 @@
+
+@media screen and (min-width:0px) and (max-width:640px) {
+  /* CSS code for small screens */
+
+  h1 {font: 50px/62px  'Poller One', cursive;
+      color: black   ;
+    }
+
+  h2 {font-family:'Raleway', sans-serif;
+      color: black;
+    }
+
+.title{
+      text-align: center;
+    }
+
+.menutitle {
+            font: 52px/64px 'Indie Flower', cursive;
+            color: black   ;
+          }
+
+.row2menu{
+          text-align: center;
+        }
+
+.img-circle {
+            border: 6px;
+            color: black;
+            border-radius: 50%;
+          }
+
+.dropdownmenu{
+            color: grey;
+            position: fixed;
+            align-content: flex-start;
+            list-style: none;
+            font: 12px/18px  'Poller One', cursive;
+
+
+}
+
+
+      #greeting {
+                font: 18px/22px 'Source Code Pro', monospace;
+                color:#20B2AA;
+                text-indent: 3px;
+                }
+
+.row{
+    border: 2px solid;
+    }
+
+.apps{
+      font: 42px/54px  'Indie Flower', cursive;
+      color: black   ;
+      }
+
+.applist{list-style: none;
+        text-align: center;
+        font: 30px/42px 'Indie Flower', cursive;
+        color: black   ;
+        }
+
+.wolfturddesc{
+              text-align: center;
+              font: 25px/36px  'Indie Flower', cursive;
+              color: black   ;
+            }
+
+.cknlollies{
+            text-align: center;
+            font: 25px/36px  'Indie Flower', cursive;
+            color: black   ;
+          }
+
+.cknwings{
+            text-align: center;
+            font: 25px/36px  'Indie Flower', cursive;
+            color: black   ;
+          }
+
+          .burnt{
+                      text-align: center;
+                      font: 25px/36px  'Indie Flower', cursive;
+                      color: black   ;
+                    }
+
+.nachos{
+          text-align: center;
+          font: 25px/36px  'Indie Flower', cursive;
+          color: black   ;
+        }
+
+
+        .skins{
+                  text-align: center;
+                  font: 25px/36px  'Indie Flower', cursive;
+                  color: black   ;
+                }
+
+
+
+
+  .sampler{
+        text-align: center;
+        font: 25px/36px  'Indie Flower', cursive;
+        color: black   ;
+        }
+
+          .row1menu{
+            text-align: center;
+
+          }
+
+
+
+          .appprices {
+                      text-align: center;
+                      font: 18px/30px  'Indie Flower', cursive;
+                      color: black   ;
+
+          }
+
+
+          .gluten{
+                text-align: center;
+                font: 18px/30px  'Indie Flower', cursive;
+                color: black   ;
+
+          }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:641px) {
+  /* CSS code for larger screens */
+  .title{
+          text-indent: 50%;
+
+        }
+
+
+  .menutitle{
+            text-align: center;
+          }
+
+  .row2menu{
+            text-align: center;
+          }
+
+
+
+  h1 {font: 48px/60px 'Raleway', sans-serif;
+    color: black;
+
+    }
+
+
+
+
+  h2 {
+      font-family:'Raleway', sans-serif;
+      color: black;
+    }
+
+
+  h3{
+    font-family: 'Raleway', sans-serif;
+    }
+
+  img {
+        border: 10px;
+        color: black;
+      }
+
+
+
+
+}
+
+
+
+span {
+  color: black;
+  font-size: 20px;
+  text-indent: 400px;
+}
